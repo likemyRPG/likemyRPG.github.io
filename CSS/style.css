@@ -48,9 +48,10 @@ main .profile img {
 }
 
 main .profile img:hover {
-  cursor: pointer;
-  transform: translate(10px, 10px);
   box-shadow: 0px 0px rgba(97, 126, 240, 0.671);
+  cursor: pointer;
+  caret-color: red;
+  transform: translate(10px, 10px);
 }
 
 main .profile h1 {
